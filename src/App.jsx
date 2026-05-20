@@ -7,7 +7,7 @@ function App() {
   const getMessage = async () => {
 
     const response = await fetch(
-      "http://localhost:8080/demo/hello"
+      "https://practice-deploymeny-1.onrender.com/demo/hello"
     );
 
     const data = await response.json();
